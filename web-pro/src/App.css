@@ -9,9 +9,10 @@
 }
 
 .card-container {
+  font-style: oblique;
   background-color: white;
   border-width: 2px;
   border-color: black;
   border-style: solid;
-  margin: 150px;
+  margin: 20px;
 }

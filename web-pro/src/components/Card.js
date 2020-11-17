@@ -1,11 +1,13 @@
 import react from 'react';
 
-const Card = ({name, institution, address}) => {
+const Card = ({ id, name, username, email, phone}) => {
     return (
         <div className="card-container">
-            <p>{name}</p>
-            <p>{institution}</p>
-            <p>{address}</p>
+            <p>id :{id}</p>
+            <p>Name :{name}</p>
+            <p>Username :{username}</p>
+            <p>Email :{email}</p>
+            <p>Phone :{phone}</p>
         </div>
     )
 }
